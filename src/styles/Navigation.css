@@ -1,0 +1,20 @@
+ul {
+  list-style-type: none;
+}
+.nav_main a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  padding: 10px;
+  transition: 0.2s;
+}
+.nav_main a:hover {
+  background-color: lightblue;
+  transform: translateX(20px);
+}
+.nav_main a.active {
+  color: Black;
+  border-left: 10px gray solid;
+  transform: translateX(0px);
+}
